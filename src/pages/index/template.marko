@@ -1,0 +1,50 @@
+<!--
+The following tag is used to associate the page with a
+browser.json file that describes the top-level client-side
+dependencies. Those dependencies are used to generate the
+required JavaScript and CSS bundles.
+-->
+<lasso-page package-path="./browser.json"/>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Marko Widgets with Lasso.js</title>
+
+    <!--
+    The following tag is used to inject the required <link> tags
+    that are used to include the generated CSS bundles.
+    -->
+    <lasso-head/>
+</head>
+<body>
+    <!--
+    The following tag is used to include our number-spinner
+    UI component. The source code for that component can
+    be found in the following directory:
+    src/components/number-spinner
+    -->
+    <number-spinner/>
+
+    <!--
+    The following tag is used to inject the required <script> tags
+    that are used to include the generated JavaScript bundles.
+    -->
+    <lasso-body/>
+
+    <!--
+    The following tag generates the code required to initialize
+    widgets associated with widgets rendered on the server.
+    -->
+    <init-widgets/>
+
+    <!--
+    If launched with browser-refresh then the following tag
+    will result in the JS code for browser-refresh automatically
+    being included. See:
+    https://github.com/patrick-steele-idem/browser-refresh
+     -->
+    <browser-refresh/>
+</body>
+</html>
