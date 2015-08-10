@@ -23,6 +23,13 @@ node server.js
 
 Then visit: http://localhost:8080/
 
+You can also use the [browser-refresh](https://github.com/patrick-steele-idem/browser-refresh) process launcher to automatically refresh pages any time a file changes as shown below:
+
+```
+npm install browser-refresh --global
+browser-refresh server.js
+```
+
 To start in production mode (minification, bundling, fingerprinting, etc.) simply use the following command:
 
 ```
