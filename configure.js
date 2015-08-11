@@ -16,7 +16,7 @@ var lasso =  require('lasso');
 // actually happens on the server
 require('lasso/node-require-no-op').enable('.css', '.less');
 
-var isProduction = process.env.NODE_ENV = 'production';
+var isProduction = (process.env.NODE_ENV === 'production');
 
 lasso.configure({
     plugins: [
