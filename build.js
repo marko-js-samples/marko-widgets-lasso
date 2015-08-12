@@ -27,10 +27,8 @@ async.series(
     function (err) {
 
         if (err) {
-            return callback(err);
+            throw err;
         }
 
         console.log('Build complete!');
-
-        callback();
     });
