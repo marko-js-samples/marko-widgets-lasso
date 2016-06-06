@@ -20,7 +20,7 @@ module.exports = require('marko-widgets').defineComponent({
         // in the state and that will be the current
         // integer value of the number spinner
         return {
-            value: value
+            value: parseInt(value)
         };
     },
     getTemplateData: function(state, input) {
