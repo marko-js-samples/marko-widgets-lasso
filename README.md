@@ -6,8 +6,8 @@ This sample app demonstrates how to build a UI component using [Marko Widgets](h
 # Installation
 
 ```
-git clone https://github.com/marko-js-samples/widget-widgets-lasso.git
-cd widget-widgets-lasso
+git clone https://github.com/marko-js-samples/marko-widgets-lasso.git
+cd marko-widgets-lasso
 npm install
 ```
 
