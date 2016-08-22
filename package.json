@@ -2,7 +2,7 @@
   "name": "marko-widgets-lasso",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,10 +12,10 @@
     "async": "^1.4.2",
     "browser-refresh-taglib": "^1.0.3",
     "express": "^4.13.3",
-    "lasso": "^1.10.2",
+    "lasso": "^2.0.0",
     "lasso-marko": "^2.0.4",
-    "marko": "^2.7.9",
-    "marko-widgets": "^5.0.0-beta.2",
+    "marko": "^3.0.3",
+    "marko-widgets": "^6.0.0",
     "serve-static": "^1.10.0"
   }
 }
